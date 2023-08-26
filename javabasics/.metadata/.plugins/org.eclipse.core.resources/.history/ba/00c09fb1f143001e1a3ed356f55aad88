@@ -1,0 +1,12 @@
+package com.rays.thread;
+
+public class WithThread {
+
+	 String name = null;
+	 
+	 public WithThread(String name ) {
+		
+		 this.name= name;
+		 
+	}
+}

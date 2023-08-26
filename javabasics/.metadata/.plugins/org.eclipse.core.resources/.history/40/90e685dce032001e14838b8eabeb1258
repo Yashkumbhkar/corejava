@@ -1,0 +1,39 @@
+package in.co.oop;
+
+import java.sql.Date;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+
+public class Person {
+   
+	private String name ;
+	private int Dob ;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getDob() {
+		return Dob;
+	}
+	public void setDob(int dob) {
+		String str = "01/01/2003";
+		SimpleDateFormat sdf = new SimpleDateFormat ("dd/MM/yyyy");
+	try {
+		java.util.Date d = sdf.parse(str);
+	} catch (ParseException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+		Dob = dob;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	private String address ;
+	
+}

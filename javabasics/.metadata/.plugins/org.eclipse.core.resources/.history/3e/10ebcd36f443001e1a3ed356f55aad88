@@ -1,0 +1,13 @@
+package com.rays.thread;
+
+public class Background extends
+ Thread{
+
+	 String name = null;
+	 
+	  public Background(String name ) {
+		
+		  this.name= name;
+		  
+	  }
+}

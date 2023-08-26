@@ -1,0 +1,15 @@
+package com.rays.stream;
+
+public class ConstantWinner {
+
+	 String name = null;
+	 String phone = null;
+	 
+	 
+	 public ConstantWinner() {
+		this.name= name ;
+		this.phone = phone ;
+		
+		}
+	
+}

@@ -1,0 +1,15 @@
+package in.co.oop;
+
+public class TestShap {
+	 public static void main(String[] args) {
+		
+	
+	 Shap s = new Shap();
+	 
+	 s.setColor("red");
+	 
+	 
+	 System.out.println(s.getColor());
+
+}
+}

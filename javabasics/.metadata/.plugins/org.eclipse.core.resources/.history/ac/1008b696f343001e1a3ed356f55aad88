@@ -1,0 +1,10 @@
+package com.rays.thread;
+
+public class TestByRunnable {
+
+	 public static void main(String[] args) {
+		
+		 Thread t1 = new Thread("yash");
+		 
+	}
+}

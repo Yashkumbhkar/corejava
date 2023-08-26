@@ -1,0 +1,10 @@
+package com.rays.io;
+
+public class Employee {
+
+	 public int id = 0;
+	 public String name = null;
+	 public String adress =null;
+	 public int salary = 0;
+	 
+}

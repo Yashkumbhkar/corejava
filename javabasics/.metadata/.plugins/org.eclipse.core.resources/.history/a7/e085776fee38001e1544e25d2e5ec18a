@@ -1,0 +1,14 @@
+package com.rays.excepstion;
+
+public class Account {
+  
+	  int  balance  = 100;
+	   
+	   public Account () {
+		   
+	   }
+	   public Account ( int balance ) {
+		    this.balance= balance ;
+		    
+	   }
+}

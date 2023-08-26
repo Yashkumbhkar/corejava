@@ -1,0 +1,17 @@
+package com.rays.io;
+
+import java.io.FileWriter;
+
+
+public class TestWriter {
+	 public static void main(String[] args) throws Exception {
+		 
+		 FileWriter writer = new FileWriter("C:\\\\Users\\\\rkumb\\\\OneDrive\\\\Desktop\\\\IO\\\\Write.txt");
+		 
+		 
+		 writer.write("hii");
+		 writer.close();
+		 System.out.println("data write succesfully");
+	}
+
+}

@@ -1,0 +1,15 @@
+package rays.com.compare;
+
+public class Employee {
+ 
+	 private int  id = 0;
+	 private String name = null;
+	 private int salary = 0;
+	 
+	  public Employee(int id , String name , int salary) {
+		  this.id = id ;
+		  this.name= name;
+		  this.salary= salary;
+		  
+	  }
+}

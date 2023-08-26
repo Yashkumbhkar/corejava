@@ -1,0 +1,13 @@
+package com.rays.calling;
+
+public class TestShap {
+  public static void main(String[] args) {
+	
+	  
+ //   Shape s = new Shape ("green",10);
+	  
+	    Rectangle r = new Rectangle("green",10);
+	    
+	   r.getClass()
+}
+}

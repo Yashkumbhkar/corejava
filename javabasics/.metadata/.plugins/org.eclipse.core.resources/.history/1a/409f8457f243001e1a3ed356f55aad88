@@ -1,0 +1,12 @@
+package com.rays.thread;
+
+public class TestWithThread {
+
+	 public static void main(String[] args) {
+		
+		  WithOutThread t1 = new WithOutThread("yash");
+		  
+		   WithOutThread t2 = new WithOutThread("ravi");
+		   
+	}
+}

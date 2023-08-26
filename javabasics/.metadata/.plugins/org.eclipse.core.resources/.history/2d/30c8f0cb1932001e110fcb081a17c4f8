@@ -1,0 +1,20 @@
+package in.co.Rayss;
+
+public class TestNoteCounting {
+ public static void main(String[] args) {
+	int amt = 340700;
+	int  [] note= {2000,500,100,50,20,1,2};
+	//int atm =0;
+	int count = 0; 
+	for (int i = 0; i < note.length; i++) {
+		count = amt /note[i];
+		if(count>0) {
+			System.out.println(note[i]+"="+count);
+			
+		}
+		amt = amt%note[i];
+	}
+	
+ }
+}
+                                                                                                                                                                                                                                                                                                                                                                                                                       

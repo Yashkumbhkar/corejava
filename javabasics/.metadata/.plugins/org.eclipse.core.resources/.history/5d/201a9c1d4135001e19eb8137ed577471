@@ -1,0 +1,18 @@
+package in.co.oop;
+
+public class TestShap {
+	 public static void main(String[] args) {
+		
+	
+	 Shap s = new Shap();
+	 
+	 Rectangle r = new Rectangle ();
+	 
+	 
+	 r.setLength(32);
+	 
+	 
+	 System.out.println(r.getLength());
+
+}
+}

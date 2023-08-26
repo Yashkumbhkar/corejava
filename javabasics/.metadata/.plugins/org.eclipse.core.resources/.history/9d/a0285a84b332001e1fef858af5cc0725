@@ -1,0 +1,10 @@
+package in.co.oop;
+
+public class Person {
+
+	String name= "yash";
+	int dob= 23/9/2002;
+	String address= "bholaram";
+	
+	
+}

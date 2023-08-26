@@ -1,0 +1,17 @@
+package com.rays.teststrem;
+
+public class ContestantWinner {
+ 
+	 private String name =null;
+	 private String phone = null;
+	 
+	 
+	 public ContestantWinner(String name , String phone ) {
+		this.name = name;
+		this.phone = phone;
+		
+		
+		  
+	}
+	 
+}

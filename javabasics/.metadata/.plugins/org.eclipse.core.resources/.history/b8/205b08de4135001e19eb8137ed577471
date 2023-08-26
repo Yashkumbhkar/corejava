@@ -1,0 +1,25 @@
+package in.co.oop;
+
+public class TestShap {
+	 public static void main(String[] args) {
+		
+	
+	 Shap s = new Shap();
+	 
+	 Rectangle r = new Rectangle ();
+	  
+	  Shap s1 = r;
+	 
+	 
+	 r.setBoardarWidth(23);
+	 r.setColor("red");
+	 r.setLength(23);
+	 r.setWidth(23);
+	 
+	 System.out.println(r.getLength());
+	 System.out.println(r.getBoardarWidth());
+	 System.out.println(r.getColor());
+	 System.out.println(r.getWidth());
+
+}
+}

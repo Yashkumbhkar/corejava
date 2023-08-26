@@ -1,0 +1,11 @@
+package in.co.oop;
+
+public class TestShape1 {
+public static void main(String[] args) {
+	 
+	 Shap1 s = new Shap1();
+ 	s.color  =  ("abc");
+    s.boderWidth = 0;
+
+}
+}

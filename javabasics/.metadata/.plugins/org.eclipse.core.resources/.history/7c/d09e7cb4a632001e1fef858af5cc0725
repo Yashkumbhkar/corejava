@@ -1,0 +1,15 @@
+package in.co.oop;
+
+import java.awt.Shape;
+
+public class TestShape {
+
+	 public static void main(String[] args) {
+		
+		 shape S = new shape(); 
+	   S.color();
+		 
+		
+	
+}
+}

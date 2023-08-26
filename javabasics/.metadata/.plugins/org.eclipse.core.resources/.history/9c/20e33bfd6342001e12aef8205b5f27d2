@@ -1,0 +1,12 @@
+package com.rays.coman;
+
+public class Account {
+  int balance ;
+  
+	 public Account () {
+		 
+	 }
+	 public Account(int balance) {
+		 
+	 }
+}

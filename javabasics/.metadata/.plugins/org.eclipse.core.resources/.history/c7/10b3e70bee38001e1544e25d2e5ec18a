@@ -1,0 +1,11 @@
+package com.rays.excepstion;
+
+public class TestAccount {
+
+	
+	 public static void main(String[] args) {
+		
+		 Account a = new Account ();
+		 Account a1 = a;
+	}
+}

@@ -1,0 +1,16 @@
+package in.co.Rayss;
+
+public class Yash1 {
+ public static void main(String[] args) {
+	
+	 String[] name = {"yash"};
+	 
+	 for(int i='a';i<'z';i++)
+	 {
+		 for(int j='a';j<i;j++) {
+		  System.out.println(i);
+	 }
+
+}
+ }
+}

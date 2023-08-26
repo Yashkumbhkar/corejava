@@ -1,0 +1,46 @@
+package in.co.withconstructor;
+
+public class TestConstructor {
+
+	public static void main(String[] args) {
+		
+		
+		Shap s = new Shap("red", 10);
+		
+		Rectangle r = new  Rectangle(10,20);
+		
+		Circle  c =  new Circle(20);
+		
+		Tringle t = new Tringle (10,20);
+		
+		
+		
+		System.out.println(s.getBorderwidht());
+		System.out.println(r.getLength());
+		System.out.println(c.getRedius());
+		System.out.println(t.getHeigth());
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+	//   double totalArea = 0  ; 
+	
+	      
+	      for (int i = 0; i < s.length; i++) {
+	    	  
+	    	  int totalArea = totalArea + s[i].area();
+	    	  
+			
+		}
+	      System.out.println("Total Area ="+totalArea);
+	     
+	        
+}
+}

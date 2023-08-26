@@ -1,0 +1,14 @@
+package com.rays.coman;
+
+public class Coustmer {
+ 
+	  String name = null;
+	  Account account = null;
+	  
+	  
+	 public Coustmer(String name ) {
+		this.name= name;
+		this.account= new Account();
+		
+	} 
+}

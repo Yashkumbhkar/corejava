@@ -1,0 +1,26 @@
+package in.co.oop;
+
+public class Person {
+      private String name;
+      private int Dob;
+      private String adress;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getDob() {
+		return Dob;
+	}
+	public void setDob(int dob) {
+		Dob = dob;
+	}
+	public String getAdress() {
+		return adress;
+	}
+	public void setAdress(String adress) {
+		this.adress = adress;
+	}
+      
+}

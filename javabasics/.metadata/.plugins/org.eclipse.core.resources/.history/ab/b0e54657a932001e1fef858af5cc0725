@@ -1,0 +1,10 @@
+package in.co.oop;
+
+public  class Shape {
+ 
+	  String color = null;
+	  int borderWidth=0;
+	 
+	 
+	
+}

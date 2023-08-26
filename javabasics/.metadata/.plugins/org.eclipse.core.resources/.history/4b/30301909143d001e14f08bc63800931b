@@ -1,0 +1,12 @@
+package com.rays.collection;
+
+public class TestPerson {
+	 public static void main(String[] args) {
+		String n1 = "admin";
+		String n2 = "admin";
+		String n3 = new String ("admin");
+		
+		System.out.println(n1.equals(n2));
+	}
+
+}

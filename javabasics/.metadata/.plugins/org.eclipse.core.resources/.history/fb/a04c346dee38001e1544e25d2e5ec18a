@@ -1,0 +1,15 @@
+package com.rays.excepstion;
+
+public class TestAccount {
+
+	
+	 public static void main(String[] args) {
+		
+		 Account a = new Account ();
+		 Account a1 = a;
+		 a1.balance= 200;
+		 
+		 System.out.println(a.balance);
+		  System.out.println(a1.balance);
+	}
+}

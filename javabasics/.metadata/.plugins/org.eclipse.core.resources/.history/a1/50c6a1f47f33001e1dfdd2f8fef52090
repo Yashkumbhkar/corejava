@@ -1,0 +1,58 @@
+package in.co.Cansractor;
+
+import java.sql.Date;
+
+public class Canstractor {
+  
+	 private String  name;
+	 private String adress;
+	 private  Date dob;
+	 
+	 
+	 public Canstractor() {
+		 
+		 
+	 }
+	 public Canstractor ( String name , String adress,Date dob) {
+		
+		 this.name = name ;
+		 this.adress = adress;
+		 this.dob = dob ; 
+		 
+		 
+		 
+	 }
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public String getAdress() {
+		return adress;
+	}
+
+
+	public void setAdress(String adress) {
+		this.adress = adress;
+	}
+
+
+	public Date getDob() {
+		return dob;
+	}
+
+
+	public void setDob(Date dob) {
+		this.dob = dob;
+	}
+	 
+	 
+	 
+}

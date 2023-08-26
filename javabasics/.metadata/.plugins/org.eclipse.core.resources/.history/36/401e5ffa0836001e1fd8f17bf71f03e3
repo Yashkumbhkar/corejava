@@ -1,0 +1,29 @@
+package in.co.withconstructor;
+
+public class Shap { 
+	
+	private String color=null;
+	private  int borderwidht=0;
+	public String getColor() {
+		return color;
+	}
+	public void setColor(String color) {
+		this.color = color;
+	}
+	public int getBorderwidht() {
+		return borderwidht;
+	}
+	public void setBorderwidht(int borderwidht) {
+		this.borderwidht = borderwidht;
+	}
+	 
+	   public  double  area () {
+		   
+		   System.out.println("Shap area method ....!!!!");
+		   return area() ;
+		   
+		   
+		   
+	   }
+
+}

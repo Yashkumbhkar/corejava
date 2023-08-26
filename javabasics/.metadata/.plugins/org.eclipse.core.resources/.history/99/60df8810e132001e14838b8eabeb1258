@@ -1,0 +1,9 @@
+package in.co.oop;
+
+public interface Person {
+   private  String name ;
+   private int Dob;
+   
+ 
+ 
+}

@@ -1,0 +1,16 @@
+package in.co.Inharitance;
+
+public class Circle  extends Shap{
+
+	  private int radius =0;
+	  
+	    
+	   public  void setRadius (int radius) {
+		   
+		   this.radius= radius ;
+	   }
+	      
+	     public int  getRadius () {
+	    	 return radius ;
+	     }
+}

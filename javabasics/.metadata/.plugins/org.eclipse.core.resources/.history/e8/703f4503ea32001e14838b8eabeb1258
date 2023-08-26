@@ -1,0 +1,33 @@
+package in.co.oop;
+
+import java.sql.Date;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+
+public class TestParson {
+  public static void main(String[] args) throws ParseException {
+	
+	  Person p = new Person ();
+	  p.setDob(05/05/2003);
+	 p.setName("yash");
+	String str ="01/01/2003";
+	SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+java.util.Date d = sdf.parse(str);
+      java.util.Date format = sdf.parse(str);
+
+System.out.println(d);
+	 p.setAdress("754 mig vikash nagar dewas");
+	 
+	 System.out.println(p.getName());
+	
+	//System.out.println(p.getDob(p.getDob()));
+	 System.out.println(p.getAdress());
+	 System.out.println(format);
+	 
+	  
+	  
+	  
+	  
+	  
+}
+}

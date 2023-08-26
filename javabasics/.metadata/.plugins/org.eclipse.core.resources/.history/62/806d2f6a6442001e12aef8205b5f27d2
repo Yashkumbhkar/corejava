@@ -1,0 +1,14 @@
+package com.rays.coman;
+
+public class TestAccount {
+ public static void main(String[] args) {
+	
+	 Account a = new Account (100);
+	 Account a2 = a;
+	 
+	 System.out.println(a2);
+	 
+	 
+	 
+}
+}

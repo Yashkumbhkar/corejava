@@ -1,0 +1,17 @@
+package in.co.rays;
+
+public class HarmonicSreis {
+ public static void main(String[] args) {
+	
+	  int num = 20;
+	  int   result =0;
+	  while(num>0){
+		  
+		  result = result + (int)1/num;
+		  num--;
+		
+	  
+	  System.out.println(result + " ,");
+}
+}
+}

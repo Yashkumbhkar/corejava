@@ -1,0 +1,52 @@
+package com.rays.calling;
+
+public class Rectangle extends Shape{
+
+	   private  int length;
+	   private int Width  ;
+	   
+
+
+public Rectangle (int length , int Width ) {
+	super();
+  this.length = length;
+  this.Width  = Width;
+  
+	
+}
+public Rectangle (int length,int Width,String color, int boderWidth) {
+	this.length = length;
+	this.Width = Width;
+}
+
+
+
+public int getLength() {
+	return length;
+}
+
+
+
+public void setLength(int length) {
+	this.length = length;
+}
+
+
+
+public int getWidth() {
+	return Width;
+}
+
+
+
+public void setWidth(int width) {
+	Width = width;
+}
+
+public double area() {
+	int rArea= getLength()*getWidth();
+	
+	System.out.println("Rectangle Area ="+rArea);
+	return rArea;
+}
+}

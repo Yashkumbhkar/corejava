@@ -1,0 +1,9 @@
+package com.rays.stream;
+
+import java.util.ArrayList;
+
+public class TestContestantWinner {
+public static void main(String[] args) {
+	ArrayList<ContestandWinner> list = new ArrayList<ContestandWinner>();
+}
+}

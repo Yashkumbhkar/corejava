@@ -1,0 +1,17 @@
+package in.co.rays;
+
+public class TestStringBuffer1 {
+
+	 public static void main(String[] args) {
+		
+		  StringBuffer sb = new StringBuffer ("y");
+				  sb.append("");
+				
+				//  System.out.println("Lenth: "+ sb.length());
+				 System.out.println("Capacity:"+ sb.capacity()); 
+				//  System.out.println("Char at :"+ sb.charAt(6));
+				//  System.out.println("Index of: "+ sb.indexOf("kumbhkar"));
+		 // System.out.println("Replace:"+ sb.replace(0,4,"yash"));
+			//	  System.out.println("Reverse:"+ sb.reverse());
+	}
+}

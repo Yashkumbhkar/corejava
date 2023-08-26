@@ -1,0 +1,8 @@
+package in.co.Rayss;
+
+public class mathsclass {
+public static void main(String[] args) {
+	
+	System.out.print("Max 2,5 + Math.max(2,5));
+}
+}

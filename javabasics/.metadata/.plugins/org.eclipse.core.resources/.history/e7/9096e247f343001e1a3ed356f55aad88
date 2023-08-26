@@ -1,0 +1,14 @@
+package com.rays.thread;
+
+public class ByRunnable {
+
+	 String name = null ;
+	 
+	 
+	 public ByRunnable(String name ) {
+		
+		 this.name=name;
+		 
+	}
+	 
+}

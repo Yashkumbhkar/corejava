@@ -1,0 +1,20 @@
+package com.rays.cloning;
+
+public class Custmer  implements  Cloneable {
+
+	  String name = null;
+	  Account account = null;
+	  
+	public  Custmer(String name ) {
+		
+		this.name = name;
+		this.account =  new Account (10);
+		
+	}
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		Custmer c = (Custmer)super.clone();
+		c.account = (Account)account.clone();
+		return c;
+	}
+}

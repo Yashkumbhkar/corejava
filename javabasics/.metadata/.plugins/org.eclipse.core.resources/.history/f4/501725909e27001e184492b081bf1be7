@@ -1,0 +1,14 @@
+package in.co.Rayss;
+
+public class Yash1 {
+ public static void main(String[] args) {
+	
+	 String[] name = {"yash"};
+	 
+	 for(int i=0;i<5;i++)
+	 {
+		 System.out.println(i);
+	 }
+
+}
+}

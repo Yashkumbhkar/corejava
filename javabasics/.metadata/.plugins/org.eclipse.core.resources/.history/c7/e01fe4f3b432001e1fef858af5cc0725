@@ -1,0 +1,15 @@
+package in.co.oop;
+
+public class TestPerson1 {
+  public static void main(String[] args) {
+	
+	  
+	  Person p = new Person();
+	  p.setName("yash");
+	  p.setDob(29/9/2002);
+	  p.setAddress("Bholaram");
+	  System.out.println(p.getName());
+	  System.out.println(p.getDob());
+	  System.out.println(p.getAddress());
+}
+}

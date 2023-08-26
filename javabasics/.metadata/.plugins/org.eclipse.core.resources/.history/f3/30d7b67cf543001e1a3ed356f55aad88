@@ -1,0 +1,12 @@
+package com.rays.thread;
+
+public class BackgroundThread extends Thread{
+
+	 String name = null;
+	 
+	  public BackgroundThread(String name ) {
+		
+		  this.name= name;
+		  
+	  }
+}

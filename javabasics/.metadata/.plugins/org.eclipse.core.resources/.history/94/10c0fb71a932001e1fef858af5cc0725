@@ -1,0 +1,10 @@
+package in.co.oop;
+
+public class TestShape {
+	public static void main(String[] args) {
+		
+	
+	Shape s = new Shape ();
+	int  b = s.color();
+}
+}

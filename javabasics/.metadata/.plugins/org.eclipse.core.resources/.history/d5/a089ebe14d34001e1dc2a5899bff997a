@@ -1,0 +1,39 @@
+package in.co.Cansractor;
+
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class TestCanstractor {
+public static void main(String[] args) throws Exception {
+	
+	String str = "05/05/2003";
+	  SimpleDateFormat sdf=new SimpleDateFormat("dd/MM/yyyy");
+	  
+	  Date dob = sdf.parse(str);
+      
+	   Canstractor c = new Canstractor("yash", "dewas", dob);
+	   
+		  
+	  
+	  
+	  
+	  System.out.println(c.getName());
+	  System.out.println(c.getAdress());
+	 System.out.println(c.getDob());
+	  
+		 
+		 
+}
+}
+
+
+
+	 
+
+
+		 
+		 
+	
+
+

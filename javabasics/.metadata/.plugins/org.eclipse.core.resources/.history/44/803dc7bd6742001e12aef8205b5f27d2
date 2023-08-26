@@ -1,0 +1,20 @@
+package com.rays.coman;
+
+public class Account1 {
+	Object o =100;
+	
+ int balance=100 ;
+ 
+ public Account1 () {
+	 
+ }
+ public Account1(int balance) {
+	 this.balance= balance;
+	 
+ }
+ @Override
+	protected Object clone() throws CloneNotSupportedException {
+		
+		return super.clone();
+	}
+}

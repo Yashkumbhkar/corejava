@@ -1,0 +1,29 @@
+package com.rays.teststrem;
+;
+import java.util.ArrayList;
+
+public class TestContestantWinner {
+ public static void main(String[] args) {
+	
+	 
+	 ArrayList<ContestantWinner> list = new ArrayList<ContestantWinner>();
+	 list.add( new ContestantWinner("yash","1212121212"));
+	 list.add(new ContestantWinner("pranv","2323232323"));
+	 list.add(new ContestantWinner("hari","3434343434"));
+	 list.add(new ContestantWinner("ayush","4545454545"));
+	 list.add(new ContestantWinner("sachin","6767676767"));
+	 list.add(new ContestantWinner("sumit","7878787878"));
+	 list.add(new ContestantWinner("dinesh","8989898989"));
+	 
+	  
+	 list.stream().map(e -> e.phone).filter(e -> e.length()==4).distinct().collect(Collectors.collectingAndThen(Collectors.toList(),
+			   e ->{
+	   
+	   Collections.shuffle(e);
+	   return e.stream();})).limit(10).forEach(e -> {
+		   System.out.println(e);
+		   
+	   
+	   });
+}
+}

@@ -1,0 +1,18 @@
+package in.co.Rayss;
+
+public class String {
+ public static void main(String[] args) {
+	
+	 char i;
+	 char j;
+	 
+	 for (i='a';i<'z';i++)
+	 {
+		 for (j='a';j<=i;j++)
+		 {
+		 System.out.println("yash");
+	 }
+	 System.out.println();
+	 
+}
+}

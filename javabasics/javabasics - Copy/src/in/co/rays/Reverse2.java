@@ -1,0 +1,21 @@
+package in.co.rays;
+
+public class Reverse2 {
+public static void main(String[] args) {
+	int n=1324;
+	
+	int r=0;
+	for(int i=0; i<=n; i++) {
+		r=n%10;
+		n=n/10;
+	System.out.print(r);	
+		
+		
+	
+		
+		
+		
+	}
+}	
+
+}

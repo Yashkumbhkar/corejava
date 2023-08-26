@@ -1,0 +1,16 @@
+package in.co.oop;
+
+public class TestPractice {
+
+public static void main(String[] args) {
+	 practice p = new practice();
+	 
+	// practice.Test(45, 10);
+  TestFact.Fact(5);
+ 
+  TestSmallValue.small();
+	  
+  }
+}
+
+

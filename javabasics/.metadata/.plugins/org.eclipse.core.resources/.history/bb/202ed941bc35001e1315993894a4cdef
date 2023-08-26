@@ -1,0 +1,29 @@
+package in.co.oop;
+
+public class TestSquer {
+ public static void main(String[] args) {
+	
+  Squer s =  new Squer();
+  
+     Squer s1 = new Tringle ();
+     s.setLenght(54);
+     s.setWidht(34);
+        
+            Tringle t = new  Tringle ();
+               Tringle t1 = (Tringle ) s;
+     
+       t1.setAngle(12);
+       t1.setLenght(34);
+       t1.setWidht(12);
+     
+     
+     
+      System.out.println(t1.getWidht());
+      System.out.println(t1.getLenght());
+      System.out.println(t1.getWidht());
+      
+      
+      
+      
+}
+}

@@ -1,0 +1,20 @@
+package com.rays.io;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+
+public class TestReadWrite {
+public static void main(String[] args) throws Exception {
+	BufferedReader in = new BufferedReader(new FileReader("C:\\Users\\rkumb\\OneDrive\\Desktop\\IO\\hello.txt"));
+	
+	PrintWriter out1 = new PrintWriter(new FileWriter("C:\\Users\\rkumb\\OneDrive\\Desktop\\IO\\hello.txt"));
+	
+	
+	 String line  = in.readLine();
+	 
+	 in.close();
+}
+}

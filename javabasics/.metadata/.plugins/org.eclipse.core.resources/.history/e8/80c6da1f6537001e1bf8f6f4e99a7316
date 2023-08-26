@@ -1,0 +1,11 @@
+package com.rays.calling;
+
+public class TestShap {
+  public static void main(String[] args) {
+	
+	  
+	  Shap s = new Shap ();
+	  
+	     Rectangle r = new Rectangle(0, 0);
+}
+}

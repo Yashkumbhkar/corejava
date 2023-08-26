@@ -1,0 +1,10 @@
+package in.co.oop;
+
+public class Account {
+    private String number;
+    private String type ;
+    private double balance;
+
+
+
+}

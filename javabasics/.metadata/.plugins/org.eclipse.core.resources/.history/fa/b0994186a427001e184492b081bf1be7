@@ -1,0 +1,12 @@
+package in.co.Rayss;
+
+public class Yash4 {
+public static void main(String[] args) {
+	
+	String name = "Yash Kumbhkar"
+	
+	{
+		System.out.println("kumb index is-"+name.indexof("kumb"));
+	}
+}
+}

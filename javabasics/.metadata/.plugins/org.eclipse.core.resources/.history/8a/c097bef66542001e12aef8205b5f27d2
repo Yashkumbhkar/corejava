@@ -1,0 +1,12 @@
+package com.rays.coman;
+
+public class TestCoust {
+ public static void main(String[] args) {
+	
+	 Coustmer c1 = new Coustmer("yash");
+	 Coustmer c2 = c1;
+	 c2.name = "aaryan";
+	 
+	  System.out.println(c2.name);
+}
+}

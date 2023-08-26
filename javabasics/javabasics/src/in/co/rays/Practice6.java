@@ -1,0 +1,25 @@
+//string
+package in.co.rays;
+
+public class Practice6 {
+ public static void main(String[] args) {
+	
+	 String[]name= {" yash "," hari "," vikash "," lucky "," ayush"};
+	 
+	  int count =0;
+	  
+	    for (int i = 0; i < name.length; i++) {
+	    	
+		       for (int j = 0; j < name[i].length(); j++) {
+		    	   
+		    	   
+		        	 if(name[i].charAt(j)=='l') {
+			 count++;
+			 }
+			 
+		}
+		 
+	}
+	    System.out.println(count);
+}
+}

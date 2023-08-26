@@ -1,0 +1,22 @@
+package in.co.oop;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class TestPerson1{
+
+public static void main(String[] args) throws ParseException {
+	
+	SimpleDateFormat sfd =  new SimpleDateFormat("dd/MM/yyyy");
+	Date d = new Date();
+	System.out.println();
+	  Person p = new Person();
+	  p.setName("yash");
+	  p.setDob(sfd.parse("05/05/2003"));
+	  p.setAddress("Bholaram");
+	  System.out.println(p.getName());
+	  System.out.println(p.getDob());
+	  System.out.println(p.getAddress());
+}
+}
